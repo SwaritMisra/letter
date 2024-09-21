@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="gift.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Harshu,</strong>
+                        <p>
+                            Today is our 1st month together, crazy. 2 months ago I could never have imagined us being here honestly and I'm so glad I was wrong about thinking we wouldn't be a thing.
+                            You're literally the best thing to happen to me, you make long distance for years, sleepless nights and any amount of effort seem worth it, seeing your smile just makes
+                            all my sadness and tiredness wash away. You're the most beautiful person in this world and I'm so fucking grateful that you gave me a chance. You make life feel like a dream,
+                            one that I never want to wake up from, unless its waking up next to you in my arms. You've changed the definition of what being loved feels like for me and I could not be more
+                            grateful for that, nobody has loved me like you and you've made this one month feel like one of the best I've ever had in my 17 years. I know long distance is difficult but
+                            there's nobody I'd rather do it with, if I'd even do it with anyone else. You make time pass by so quick, even when doing nothing special (but everything you do is special to me).
+                            Being loved by you feels like a cold breeze on a warm summer day, like the warmth of the sun on a cold winter day, a ray of hope during a sad day, motivation during the most 
+                            demotivated days, understanding a math question instantly, acing a landing, doing amazing on a test I thought I was screwed for, all put together. You make me feel so good and I 
+                            could never get enough of you or the way you love me. You've made me a happier person and thank you for that. I don't ever want to imagine a life without you and I hope I'll never
+                            have to experience one. You're the best and I love you so much. I love you more than anyone else on this universe and will continue to do so until we're both forgotten memories. 
+                            Thank you so much for a beautiful month and I hope I get to spend many many many more with you my love. mwah
+                            <br>
+                            <br>
+                            With more love than you can imagine,<br>
+                            Your nerdy king
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
